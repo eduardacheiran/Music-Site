@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 35%;
+    grid-template-areas: 'aside main'
+                         'aside main'
+                         'footer footer';
+}
+
+aside{
+    height: 90vh;
+    background-color: #897BC1;
+    grid-area: aside;
+}
+
+main{
+    height: 90vh;
+    background-color: #EAE7FA;
+    grid-area: main;
+}
+
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: whitesmoke;
+    grid-area: footer;
+}
+
+.perfil{
+    width: 3vw;
+    height: 3vw;
+    margin-top: 5px;  
+}
+
+.bi{
+    width: 2vw;
+    height: 2vw;
+    margin-top: 10px;
+}
+
+#primeira-div-perfil{
+    display: flex;
+    justify-content: space-around;
+}
+
+#p1{
+    margin-top: 20px;
+}
+
+
+#section1{
+    width: 20vw;
+}
+
+.play-section{
+    display: flex;
+}
+
+.playlists{
+    width: 10vw;
+    height: 30vh;
+    background-color: #897BC1;
+
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#img-playlist{
+    width: 9vw;
+    display: flex;
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    border-radius: 7px;
+}
+
+#play-nome{
+    margin-left: 14px;
+}
+
+.play-section2{
+    display: flex;
+}
+
+.playlists2{
+    width: 10vw;
+    height: 10vw;
+    background-color: #897BC1;
+
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#p-artistas{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#div-artistas{
+    display: flex;
+}
+
+#artistas-foto{
+    width: 5vw;
+    border-radius: 60px;
+    margin-top: 15px;
+}
+
+#nome-art{
+    margin-top: 18px;
+    margin-left: 5px;
+}

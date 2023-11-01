@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    size: 10px;
+}
+.container-fluid{
+   background-color: #897BC1;
+}
+
+.offcanvas-header{
+    background-color: #897BC1;
+}
+
+.bg-dark{
+    background-color: #897BC1;
+}
+
+.navbar{
+    background-color: #897BC1;
+}
+
+#foto-home{
+    width: 98.8vw;
+}
+
+main{
+    background-color: #EAE7FA;
+    height: 300vh;
+}
+
+input{
+    display: flex;
+    font-size: 1.2em;
+    border-radius: 10px ;
+    border: 3px solid #897BC1;
+    border-color: #897BC1;
+    background-color: #EAE7FA;
+    padding: 0.2em;
+    width: 25vw;
+}
+
+#input-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#p-artistas{
+    margin-top: 90px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#artistas{
+    width: 10vw;
+    height: 10vw;
+    margin-left: 10px;
+    border-radius: 400px;
+}
+
+.perfis{
+    display: flex;
+    justify-content: space-around;
+}
+
+.play-section{
+    display: flex;
+}
+
+.playlists{
+    width: 12vw;
+    height: 35vh;
+    background-color: #897BC1;
+
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#img-playlist{
+    width: 10vw;
+    display: flex;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    border-radius: 7px;
+}
+
+#play-nome{
+    margin-left: 15px;
+}
